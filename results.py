@@ -1,6 +1,10 @@
 import csv
 import numpy as np
 
+###############
+## Loads raw results and agglomerates them
+###############
+
 class Resulter():
     def __init__(self, result_dir):
         self.result_dir = result_dir

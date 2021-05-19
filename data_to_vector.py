@@ -6,6 +6,11 @@ from gensim.models import KeyedVectors
 import pickle
 import utils
 
+##################
+## Convert json to location vectors 
+## Resave into numpy
+#################
+
 word2vec = KeyedVectors.load("word2vec.model")
 
 data_dict = utils.read_data_dict("data/portland_or_500.json")

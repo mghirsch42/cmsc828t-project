@@ -1,6 +1,10 @@
 import numpy as np
 import json
 
+################
+## Convert dump files into json
+################
+
 data = []
 
 with open("data/portland_or.dump", "r", encoding="utf8") as f:

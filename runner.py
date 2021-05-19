@@ -8,7 +8,6 @@ texas_vecs, france_vecs, maine_vecs, oregon_vecs = utils.load_data_vectors()
 classifier = Classifers(texas_vecs, france_vecs, maine_vecs, oregon_vecs, "results3/")
 classes = ["texas", "france", "maine", "oregon"]
 
-classifier.one_vs_all("sgd", "texas", None)
 
 # for alg in ["sgd", "lr", "knn", "rf"]:
 #     for pos_class in classes:

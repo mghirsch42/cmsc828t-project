@@ -3,6 +3,10 @@ import pickle
 from matplotlib import pyplot as plt
 import utils
 
+################
+## Calculate word vector statistics, plot
+################
+
 plt.rc("font", size=12)
 plt.rc("figure", titlesize=16)
 
